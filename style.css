@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(181, 223, 247);
+}
+
+body > header {
+    background-color: rgb(0, 0, 0);
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.headerMenu ul li {
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.headerMenu ul li:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.headerMenu li a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 10px;
+}
+.container1, .container2, .container3, .container4 {
+    padding: 150px;
+    margin: 0 auto;
+    
+}
+
+.container1 {
+    background-color: rgb(167, 226, 143);
+}
+
+.container2 {
+    background-color: rgb(118, 230, 74);
+}
+
+.container3 {
+    background-color: rgb(167, 226, 143);
+}
+
+.container4 {
+    background-color: rgb(118, 230, 74);
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    max-width: 30%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    background: rgba(248, 248, 248, 0.493);
+}
+
+img {
+    max-width: 438px;
+}
+
+section h2 {
+    margin: 16px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
